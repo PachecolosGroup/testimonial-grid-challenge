@@ -1,0 +1,161 @@
+html{
+  font-family: 'Karla';
+  font-size: 16px;
+  border-radius: 5px;
+  /* overflow: hidden; */
+  padding-top: 20px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.divOne{
+  background-color: #FCFBFF;
+  padding: 40px;
+  place-content: center;
+  
+}
+
+.mainDiv{
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgba(40, 6, 119, 0.1);
+  width: 100%;
+  max-width: 800px;
+  
+}
+
+.h2Tit{
+  font-size: 1.8rem;
+  color: #27A4A0;
+}
+
+.designDiv .test1 {
+  font-size: 3rem; /* Tamaño deseado */
+  font-weight: bold;
+  margin: 0;
+}
+
+h3{
+  font-size: 1.2rem;
+  color: #BEDE32;
+  }
+
+p{
+    font-size: 1rem;
+    color: #D9D9D9;
+    font-size: 1.04rem;
+  } 
+
+.subsDiv{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.divLeft{
+  flex: 50%;
+  padding: 50px;
+  background-color: #27A4A0;
+  color: white;
+}
+
+button{
+  width: 100%;
+  background-color: #BEDE32;
+  border: none;
+  padding: 20px 80px 20px 80px;
+  place-content: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  box-shadow: 10px 5px 5px rgba(7, 5, 5, 0.2);
+  
+}
+button:hover{
+  cursor: pointer; 
+  background-color: #08664C;
+  transform: scale(1.04);
+  transition: all 0.3s ease;
+}
+
+
+.designDiv{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+}
+
+.greey-text{
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.tag{
+  color: #d9d9d9;
+  align-items: end;
+  opacity: 0.8;
+  margin: 0px;
+}
+
+.divRight{
+  background-color: #4aBEBC;
+  flex: 50%;
+  color: white;
+  padding: 50px;
+  
+}
+
+.list{
+  opacity: 60%;
+  list-style: none;
+  padding-inline-start: 0px;
+  writing-mode: horizontal-tb; 
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  
+}
+p{
+    font-size: 1.2rem;
+    line-height: 26px;
+    color: #d9d9d9;
+  }
+
+.greey-text{
+  font-size: 1.2rem;
+  color: #d9d9d9;
+}
+
+.Greish{
+  color: #606060;
+  opacity: 60%
+}
+ /* from pc to mobile */
+@media (max-width: 580px) {
+  .subsDiv {
+    flex-direction: column;
+  }
+
+  .divLeft, .divRight{
+    flex: 100%;
+    text-align: start;
+  }
+} 
+
+
+ /* from mobile to pc
+@media (min-width:576px){
+  .divLeft, .divRight{
+    flex-direction: column;
+  }
+
+  
+} */
