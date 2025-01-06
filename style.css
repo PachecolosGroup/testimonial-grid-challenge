@@ -8,6 +8,12 @@ body {
     background-color: #ecf2f8;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
+h2{
+    font-size: 14px;
+}
+p{
+    font-size: 16px;
+}
 #testimonial-grid-container{
     padding: 5% 3%;
     max-width: 800px;
@@ -36,12 +42,16 @@ body {
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0, 0.2);
+    box-shadow: -1px 10px 59px -24px rgba(102,127,209,0.51);
     font-size: 13px;
+
 }
 
 .grid-item p {
     opacity: 70%;
+    line-height: 1.4;
+    max-width: 900px;
+    letter-spacing: 0.2px;
 }
 
 .header{
